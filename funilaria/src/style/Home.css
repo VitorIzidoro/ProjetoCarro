@@ -1,0 +1,118 @@
+/* HERO - Banner principal */
+.hero {
+  background: url("https://images.pexels.com/photos/4489733/pexels-photo-4489733.jpeg") no-repeat center/cover;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--white);
+  padding: 0 8%;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  inset: 0;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-cta {
+  background: var(--orange);
+  color: var(--white);
+  padding: 12px 26px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.btn-cta:hover {
+  background: #e66000;
+  transform: scale(1.05);
+}
+
+/* Serviços */
+.services {
+  background: var(--black);
+  padding: 80px 20px;
+  text-align: center;
+  color: var(--white);
+}
+
+.services h2 {
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  color: var(--orange);
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #111;
+  padding: 30px 20px;
+  width: 280px;
+  border-radius: 12px;
+  border: 2px solid var(--orange);
+  transition: .3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-card span {
+  font-size: 2.5rem;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  margin: 12px 0;
+  color: var(--orange);
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: var(--gray);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hero {
+    justify-content: center;
+    text-align: center;
+    padding: 0 5%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
