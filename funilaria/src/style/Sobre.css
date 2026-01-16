@@ -1,0 +1,106 @@
+/* ===== CONTAINER GERAL ===== */
+.sobre-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  color: #f1f1f1;
+  line-height: 1.7;
+}
+
+/* ===== TÍTULOS ===== */
+.sobre-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #ff6a00;
+}
+
+.sobre-container h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #ff6a00;
+}
+
+/* ===== TEXTOS ===== */
+.sobre-container p {
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+  max-width: 850px;
+}
+
+/* ===== SEÇÕES ===== */
+.sobre-intro,
+.sobre-historia,
+.sobre-experiencia,
+.sobre-diferenciais,
+.sobre-mvv,
+.sobre-processo {
+  margin-bottom: 70px;
+}
+
+/* ===== DIFERENCIAIS ===== */
+.sobre-diferenciais ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-width: 700px;
+}
+
+.sobre-diferenciais li {
+  background: #111;
+  border-left: 4px solid #ff6a00;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* ===== MISSÃO, VISÃO E VALORES ===== */
+.sobre-mvv p {
+  background: #0f0f0f;
+  padding: 18px 20px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #222;
+}
+
+/* ===== PROCESSO ===== */
+.sobre-processo p {
+  max-width: 800px;
+}
+
+
+/* ===== BOTÃO ===== */
+.sobre-btn {
+  display: inline-block;
+  background: #000;
+  color: #ff6a00;
+  padding: 14px 34px;
+  border-radius: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.sobre-btn:hover {
+  transform: scale(1.05);
+  background: #111;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+  .sobre-container {
+    padding: 60px 20px;
+  }
+
+  .sobre-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .sobre-container h2 {
+    font-size: 1.7rem;
+  }
+
+  .sobre-cta {
+    padding: 40px 20px;
+  }
+}

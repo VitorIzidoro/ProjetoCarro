@@ -1,0 +1,119 @@
+/* ===== CONTAINER ===== */
+.orcamento-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  color: #f5f5f5;
+}
+
+/* ===== HEADER ===== */
+.orcamento-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.orcamento-header h1 {
+  font-size: 2.6rem;
+  color: #ff6a00;
+  margin-bottom: 14px;
+}
+
+.orcamento-header p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* ===== FORM ===== */
+.orcamento-form {
+  background: #0f0f0f;
+  padding: 40px 30px;
+  border-radius: 16px;
+  border: 1px solid #222;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #777;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid #ff6a00;
+}
+
+/* ===== BOTÃO ===== */
+.btn-orcamento {
+  width: 100%;
+  background: #ff6a00;
+  color: #000;
+  border: none;
+  padding: 16px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-orcamento:hover {
+  background: #ff8126;
+}
+
+/* ===== WHATSAPP ===== */
+.orcamento-whatsapp {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.orcamento-whatsapp p {
+  margin-bottom: 12px;
+  color: #aaa;
+}
+
+.orcamento-whatsapp a {
+  display: inline-block;
+  background: #25d366;
+  color: #000;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.orcamento-whatsapp a:hover {
+  transform: scale(1.05);
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 600px) {
+  .orcamento-header h1 {
+    font-size: 2.1rem;
+  }
+
+  .orcamento-form {
+    padding: 30px 20px;
+  }
+}

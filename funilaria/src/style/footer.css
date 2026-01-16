@@ -1,31 +1,12 @@
-:root {
-  --orange: #FF6B00;
-  --black: #0A0A0A;
-  --white: #FFFFFF;
-}
-
-/* FOOTER */
 .footer {
-  width: 100%;
-  background: var(--black);
-  color: var(--white);
+  background: #0b0b0b;
+  padding: 30px 20px;
   text-align: center;
-  padding: 25px 10px;
-  border-top: 3px solid var(--orange);
-  font-size: 0.95rem;
-  font-weight: 500;
-  margin-top: 50px;
+  border-top: 1px solid #1f1f1f;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .footer p {
-  margin: 0;
-  letter-spacing: 0.5px;
-}
-
-/* Responsivo */
-@media (max-width: 600px) {
-  .footer {
-    font-size: 0.85rem;
-    padding: 20px 10px;
-  }
+  color: #aaa;
+  font-size: 0.9rem;
 }
