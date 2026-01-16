@@ -34,7 +34,7 @@ export default function Orcamento() {
     const mensagemFormatada = encodeURIComponent(mensagem);
 
     window.open(
-      `https://wa.me/5516997692321?text=${mensagemFormatada}`,
+      `https://wa.me/5516997002006?text=${mensagemFormatada}`,
       "_blank"
     );
   }
