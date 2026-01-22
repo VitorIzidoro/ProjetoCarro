@@ -1,10 +1,10 @@
 /* HERO */
 .servicos-hero {
   background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.85)),
-    url("https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg");
+    url("https://mandy-lackreparatur.de/wp-content/uploads/2023/03/mandy-s-lackreparatur-009_edited.jpg");
   background-size: cover;
   background-position: center;
-  padding: 120px 20px;
+  padding: 180px 20px;
   text-align: center;
   color: #fff;
 }
