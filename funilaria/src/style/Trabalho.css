@@ -83,11 +83,23 @@
   gap: 10px;
 }
 
-.trabalho-card img {
+.antes-carro{
   width: 100%;
-  border-radius: 10px;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
 }
+
+.depois-carro{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+}
+
+
 
 .cta-final {
   background: linear-gradient(180deg, #0b0b0b, #111);

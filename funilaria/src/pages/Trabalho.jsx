@@ -1,7 +1,12 @@
 import "../style/Trabalho.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import imagemantes1 from "../assets/imagemcarroantes1.jpeg"
+import imagemdepois1 from "../assets/imagemcarrodepois1.jpeg"
+import imagemantes2 from "../assets/imagemcarroantes2.jpeg"
+import imagemdepois2 from "../assets/imagemcarrodepois2.jpeg"
 import { Link } from "react-router-dom";
+
 
 export default function Servicos() {
   return (
@@ -56,13 +61,13 @@ export default function Servicos() {
 
         <div className="trabalhos-grid">
           <div className="trabalho-card">
-            <img src="/antes1.jpg" alt="Antes do serviço" />
-            <img src="/depois1.jpg" alt="Depois do serviço" />
+            <img src={imagemantes1} alt="Antes do serviço" className="antes-carro" />
+            <img src={imagemdepois1} alt="Depois do serviço" className="depois-carro"/>
           </div>
 
           <div className="trabalho-card">
-            <img src="/antes2.jpg" alt="Antes do serviço" />
-            <img src="/depois2.jpg" alt="Depois do serviço" />
+            <img src={imagemantes2} alt="Antes do serviço" className="antes-carro" />
+            <img src={imagemdepois2} alt="Depois do serviço" className="depois-carro" />
           </div>
 
           <div className="trabalho-card">
