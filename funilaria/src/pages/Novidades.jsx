@@ -86,6 +86,7 @@ export default function Orcamento() {
             placeholder="Ex: Gol 2018"
             value={form.veiculo}
             onChange={handleChange}
+            required
           />
         </div>
 
@@ -97,6 +98,9 @@ export default function Orcamento() {
             rows="4"
             value={form.descricao}
             onChange={handleChange}
+            required
+            maxLength={150}
+            minLength={50}
           />
         </div>
 
