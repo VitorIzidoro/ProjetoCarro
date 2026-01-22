@@ -145,4 +145,13 @@
   .trabalho-card {
     grid-template-columns: 1fr;
   }
+
+  .antes-carro{
+    height: 320px; /* 🔥 melhor proporção vertical */
+  }
+
+  .depois-carro{
+    height: 320px; /* 🔥 melhor proporção vertical */
+  }
+  
 }
