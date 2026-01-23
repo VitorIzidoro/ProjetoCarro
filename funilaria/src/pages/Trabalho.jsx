@@ -5,6 +5,8 @@ import imagemantes1 from "../assets/imagemcarroantes1.jpeg"
 import imagemdepois1 from "../assets/imagemcarrodepois1.jpeg"
 import imagemantes2 from "../assets/imagemcarroantes2.jpeg"
 import imagemdepois2 from "../assets/imagemcarrodepois2.jpeg"
+import imagemantes3 from "../assets/imagemcarroantes3.jpeg"
+import imagemdepois3 from "../assets/imagemcarrodepois3.jpeg"
 import { Link } from "react-router-dom";
 
 
@@ -71,8 +73,8 @@ export default function Servicos() {
           </div>
 
           <div className="trabalho-card">
-            <img src="/antes3.jpg" alt="Antes do serviço" />
-            <img src="/depois3.jpg" alt="Depois do serviço" />
+            <img src={imagemantes3} alt="Antes do serviço" className="antes-carro" />
+            <img src={imagemdepois3} alt="Depois do serviço" className="depois-carro" />
           </div>
         </div>
       </section>
