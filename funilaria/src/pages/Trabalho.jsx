@@ -46,12 +46,16 @@ export default function Servicos() {
           </p>
         </div>
 
-        <div className="servico-card">
-          <h3>✨ Estética Automotiva</h3>
-          <p>Serviços de polimento técnico, revitalização da pintura e
-  limpeza detalhada, focados em realçar o visual e preservar
-  a aparência do seu carro por mais tempo.</p>
-        </div>
+      <div className="servico-card">
+  <h3>🔧 Funilaria e Reparos</h3>
+  <p>
+     Correção de amassados e imperfeições causadas por pequenos
+    impactos, garantindo um acabamento uniforme e bem executado.
+    O serviço preserva a estética do veículo, devolvendo a
+    harmonia visual e valorizando o carro.
+  </p>
+</div>
+
       </section>
 
       {/* TRABALHOS */}
