@@ -29,7 +29,7 @@ export default function Servicos() {
       {/* SERVIÇOS */}
       <section className="servicos-lista">
         <div className="servico-card">
-          <h3>🔧 Funilaria com padrão de qualidade</h3>
+          <h3>🚗 Funilaria com padrão de qualidade</h3>
           <p>
             Trabalhamos com atenção aos detalhes, materiais de qualidade e
             profissionais experientes para garantir um resultado durável e

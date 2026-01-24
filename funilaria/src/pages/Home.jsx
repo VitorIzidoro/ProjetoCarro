@@ -29,7 +29,7 @@ export default function Home() {
 
         <div className="services-grid">
           <div className="service-box">
-            <span>🔧</span>
+            <span>🚗</span>
             <h4>Funilaria</h4>
             <p>Correções estruturais, alinhamento e reparos completos.</p>
           </div>
@@ -41,9 +41,9 @@ export default function Home() {
           </div>
 
           <div className="service-box">
-            <span>✨</span>
-            <h4>Estética automotiva</h4>
-            <p>Polimento, revitalização e proteção da pintura.</p>
+            <span>🔧</span>
+            <h4>Funilaria e Reparos</h4>
+            <p>Correção de amassados e imperfeições.</p>
           </div>
         </div>
       </section>
